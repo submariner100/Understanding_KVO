@@ -12,6 +12,8 @@
 		273506061DFF4152003823C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273506041DFF4152003823C9 /* Main.storyboard */; };
 		273506081DFF4152003823C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273506071DFF4152003823C9 /* Assets.xcassets */; };
 		2735060B1DFF4152003823C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273506091DFF4152003823C9 /* LaunchScreen.storyboard */; };
+		273506131DFF4179003823C9 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273506121DFF4179003823C9 /* Configuration.swift */; };
+		273506151DFF419B003823C9 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273506141DFF419B003823C9 /* ConfigurationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		273506071DFF4152003823C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2735060A1DFF4152003823C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2735060C1DFF4152003823C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273506121DFF4179003823C9 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		273506141DFF419B003823C9 /* ConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				273506071DFF4152003823C9 /* Assets.xcassets */,
 				273506091DFF4152003823C9 /* LaunchScreen.storyboard */,
 				2735060C1DFF4152003823C9 /* Info.plist */,
+				273506121DFF4179003823C9 /* Configuration.swift */,
+				273506141DFF419B003823C9 /* ConfigurationManager.swift */,
 			);
 			path = Understanding_KVO;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273506151DFF419B003823C9 /* ConfigurationManager.swift in Sources */,
+				273506131DFF4179003823C9 /* Configuration.swift in Sources */,
 				273506031DFF4151003823C9 /* ViewController.swift in Sources */,
 				273506011DFF4151003823C9 /* AppDelegate.swift in Sources */,
 			);
